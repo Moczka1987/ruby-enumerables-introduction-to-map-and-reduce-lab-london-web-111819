@@ -19,7 +19,7 @@ source_array.reduce(starting_point, :+)
 end 
 
 def reduce_to_all_true(source_array)
-source_array.reduce {|el| el == true}
+source_array.reduce {|el| el = false}
 end
 
 def reduce_to_any_true(source_array) 
